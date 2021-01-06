@@ -1,0 +1,35 @@
+/*
+* @Author: Chetan Reddy
+* @Date:   2021-01-05 21:14:43
+* @Last Modified by:   Chetan Reddy
+* @Last Modified time: 2021-01-05 21:14:49
+*/
+.common {
+    text-align: center;
+}
+
+.boxitem {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#inputimg {
+    vertical-align: top;
+    border: solid 1px black;
+}
+
+#clearbtn {
+    width: 100%;
+    font-size: medium;
+    display: block;
+}
+
+#predictdigit {
+    width: 196px;
+    height: 196px;
+    line-height: 196px;
+    font-size: 160px;
+    border: solid 1px black;
+    background-color: white;
+    font-family: Century;
+}
