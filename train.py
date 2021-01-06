@@ -2,7 +2,7 @@
 # @Author: Chetan Reddy
 # @Date:   2021-01-05 12:40:52
 # @Last Modified by:   Chetan Reddy
-# @Last Modified time: 2021-01-05 17:51:33
+# @Last Modified time: 2021-01-05 22:23:18
 
 
 
@@ -126,7 +126,7 @@ class Training():
 					train_acc = self.accuracy(self.net, self.train_loader)
 					val_acc = self.accuracy(self.net, self.test_loader)
 					if val_acc > self.best_acc:
-						torch.save({"state_dict": self.net.state_dict()}, "cnn2.pth")
+						torch.save({"state_dict": self.net.state_dict()}, "alpha_weights.pth")
 						self.best_acc = val_acc
 					logging.info(
 						"Epoch {:04d}"
